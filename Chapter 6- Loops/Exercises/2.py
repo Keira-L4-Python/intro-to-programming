@@ -2,15 +2,13 @@ while True:
     Age=int(input("How old is the customer:"))
 
     if Age < 3:
-        price=0
+        print("Ticket is free")
 
-    if Age < 12:
-        price=10
+    if Age < 13:
+        print("Ticket is 10")
 
     if Age > 12:
-        price=15
+        print("Ticket is 15")
     
     if Age == 0:
         break
-
-print("You're ticket is", price)
