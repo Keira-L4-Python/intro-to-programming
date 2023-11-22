@@ -1,14 +1,16 @@
 while True:
     Age=int(input("How old is the customer:"))
 
-    if Age <= 2:
-        print("Ticket is free")
+    if Age < 3:
+        price=0
 
-    if Age(3) <= 12:
-        print("Ticket is 10")
+    if Age < 12:
+        price=10
 
     if Age > 12:
-        print("Ticket is 15")
+        price=15
     
     if Age == 0:
         break
+
+print("You're ticket is", price)
