@@ -1,5 +1,3 @@
-message="Hello there"
-
-message="How are you?"
+message="Hello there, How are you?"
 
 print(message)
